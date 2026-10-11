@@ -1,0 +1,21 @@
+# Runtime data (never commit real business data)
+data/
+*.db
+*.xlsx
+.licencia
+.dashboard_secret
+
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# OS / editor
+Thumbs.db
+.DS_Store
+.vscode/
+.idea/

@@ -1,0 +1,11 @@
+# RestaurantePOS — dependencies
+# Install with: pip install -r requirements.txt
+# (tkinter, sqlite3, json, threading, etc. ship with Python itself)
+
+Flask>=3.0            # waitstaff web app + owner dashboard
+opencv-python>=4.8.0  # RTSP camera streams
+Pillow>=10.0.0        # camera frames -> Tkinter images
+segno>=1.6            # QR code generation
+openpyxl>=3.1         # Excel export of the daily cash close
+python-escpos>=3.0    # ESC/POS thermal printing (optional at runtime)
+python-dotenv>=1.0    # loads .env in reportes.py
